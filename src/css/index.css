@@ -1,6 +1,6 @@
-@import url('/src/css/globalReset.css');
-@import url('/src/css/globalFonts.css');
-@import url('/src/css/globalStyle.css');
+@import url('globalReset.css');
+@import url('globalFonts.css');
+@import url('globalStyle.css');
 
 body {
     font-family: Roboto, sans-serif;
@@ -12,12 +12,12 @@ body {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    position: fixed absolute;
+    position: fixed;
     top: 0;
     background-color: rgba(0, 0, 0, 0.6);
     min-height: 40px;
     width: 100%;
-    
+    z-index: 1;    
 }
 
 .header__container-nav {
@@ -55,7 +55,7 @@ body {
     color: white;
     font-weight: bold;
     padding: 0px 12px;
-    font-size: 0.7rem;
+    font-size: 1rem;
 
 }
 
@@ -67,8 +67,7 @@ body {
 /*Main*/
 /*Main Banner*/
 .main__container {
-    display: flex;
-    
+    display: flex;    
     justify-content: center;
     align-items: center;
     position: relative;
@@ -89,7 +88,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url('/src/img/banner-initial.jpg') center center/cover;
+    background: url('../img/banner-initial.jpg') center center/cover;
     background-color: rgba(0, 0, 0, 0.4);
     background-blend-mode: color;
 
