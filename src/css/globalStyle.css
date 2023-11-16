@@ -1,6 +1,5 @@
 /*Btn-Primary*/
-.btn-primary {
-    background-color: #1DB954;
+.btn-primary {      
     color: white;
     text-transform: uppercase;
     padding: 16px 60px;
@@ -8,13 +7,25 @@
     border-radius: 30px;
     letter-spacing: 1px;
     font-weight: bold;
+    transition: background 1s, outline 1s, transform 1s;
+    background: linear-gradient( 45deg, #e29d1c 2%, #26b909 20%,transparent 50%);
 }
 
-.btn-primary:hover {
-    cursor: pointer;
-    background-color: #66e492;
-    color: rgb(83, 79, 79);
+.btn-primary.button--gradient {
+    background: var(-45deg, #e29d1c 5%, #26b909 80%);
+    outline: 3px solid transparent;
+    transition: background 1s, outline 1s, transform 1s;
+    background-size: 250%;
 }
+
+.btn-primary.button--gradient:hover {
+    cursor: pointer;
+    background-color: transparent;
+    background-position: 100%;
+    outline: 2px solid #ecef34 ;
+    transform: scale(1.05);
+}
+
 
 /*Logo Image Spotify*/
 .logo-image {
