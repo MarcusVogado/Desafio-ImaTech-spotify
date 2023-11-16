@@ -24,8 +24,6 @@ body {
 
 }
 
-
-
 .logo-image:hover {
     cursor: pointer;
     filter: brightness(50%);

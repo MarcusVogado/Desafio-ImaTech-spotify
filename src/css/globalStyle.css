@@ -1,5 +1,5 @@
 /*Btn-Primary*/
-.btn-primary{
+.btn-primary {
     background-color: #1DB954;
     color: white;
     text-transform: uppercase;
@@ -8,6 +8,11 @@
     border-radius: 30px;
     letter-spacing: 1px;
     font-weight: bold;
+}
+
+.btn-primary:hover {
+    background-color: #66e492;
+    color: rgb(83, 79, 79);
 }
 
 /*Logo Image Spotify*/
