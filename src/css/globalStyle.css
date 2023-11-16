@@ -1,0 +1,18 @@
+/*Btn-Primary*/
+.btn-primary{
+    background-color: #1DB954;
+    color: white;
+    text-transform: uppercase;
+    padding: 16px 60px;
+    border: none;
+    border-radius: 30px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+/*Logo Image Spotify*/
+.logo-image {
+    height: 20px;
+    width: auto;
+
+}
